@@ -2940,6 +2940,7 @@ Translations of the guide are available in the following languages:
   ```
 
 * Avoid `alias` when `alias_method` will do.
+  * See http://blog.bigbinary.com/2012/01/08/alias-vs-alias-method.html 
 
 * Use `OptionParser` for parsing complex command line options and
 `ruby -s` for trivial command line options.
