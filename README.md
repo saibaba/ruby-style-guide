@@ -527,7 +527,8 @@ Translations of the guide are available in the following languages:
 * Avoid trailing whitespace.
 
 * End each file with a newline.
-
+  * For example, this helps with wc -l.
+  * Makes easy to open in editors.
 * Don't use block comments. They cannot be preceded by whitespace and are not
   as easy to spot as regular comments.
 
