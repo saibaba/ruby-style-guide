@@ -2946,6 +2946,7 @@ Translations of the guide are available in the following languages:
 `ruby -s` for trivial command line options.
 
 * Prefer `Time.now` over `Time.new` when retrieving the current system time.
+  * For example, you do not have to think 'Does Time.new initialize to epoch? current time? null fields ?'
 
 * Code in a functional way, avoiding mutation when that makes sense.
 
