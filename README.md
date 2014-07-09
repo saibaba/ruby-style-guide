@@ -145,7 +145,7 @@ Translations of the guide are available in the following languages:
 
   puts 'foo', 'bar' # this applies to puts in particular
   ```
-
+  * Also, ';' makes it tedious if you decide to refactor
 * Prefer a single-line format for class definitions with no body.
 
   ```Ruby
@@ -159,7 +159,8 @@ Translations of the guide are available in the following languages:
   # good
   FooError = Class.new(StandardError)
   ```
-
+  * This way, the intention (that you are creating a sub-class just for typing not for funcationality) is clear.
+  * See http://blog.rubybestpractices.com/posts/gregory/anonymous_class_hacks.html
 * Avoid single-line methods. Although they are somewhat popular in the
   wild, there are a few peculiarities about their definition syntax
   that make their use undesirable. At any rate - there should be no more
