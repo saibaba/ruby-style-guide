@@ -100,6 +100,10 @@ Translations of the guide are available in the following languages:
 > -- Jerry Coffin (on indentation)
 
 * Use `UTF-8` as the source file encoding.
+  * Allows for editing in a plathora of editors, including on Windows.
+  * Allows for sharing with teams across the world without problems in opening the file.
+  * Allows easy addition of non ascii encoded characters without worrying much.
+  * Also see http://joconner.com/2011/09/source-code-encoding-utf8/
 * Use two **spaces** per indentation level (aka soft tabs). No hard tabs.
 
   ```Ruby
